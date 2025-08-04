@@ -1,4 +1,4 @@
-# Machine Learning Flask Docker App for Mortgage Backed Securities with Prometheus Metrics
+# Machine Learning App for Mortgage Backed Securities
 
 This repository contains a Dockerized Flask application that leverages various machine learning models (Logistic Regression, XGBoost, Gradient Boosting, and Linear Discriminant Analysis - LDA) to predict the probability of default for Mortgage Backed Securities (MBS). The application exposes an API endpoint for making predictions and integrates Prometheus for monitoring key performance indicators.
 
@@ -143,5 +143,6 @@ Potential areas for further development include:
 
 ## Contributing
 Contributions to this project are welcome. Please feel free to submit pull requests or open issues for bug fixes, feature requests, or improvements.
+
 
 
