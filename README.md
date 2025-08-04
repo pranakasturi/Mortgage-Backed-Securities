@@ -1,6 +1,6 @@
 # Machine Learning App for Mortgage Backed Securities
 
-This repository contains a Dockerized Flask application that leverages various machine learning models (Logistic Regression, XGBoost, Gradient Boosting, and Linear Discriminant Analysis - LDA) to predict the probability of default for Mortgage Backed Securities (MBS). The application exposes an API endpoint for making predictions and integrates Prometheus for monitoring key performance indicators.
+This repository contains a Dockerized Flask application that leverages various machine learning models (Logistic Regression, XGBoost and Gradient Boosting) to predict the probability of default for Mortgage Backed Securities (MBS). The application exposes an API endpoint for making predictions and integrates Streamlit Web App.
 
 ## Overview
 This project applies Machine Learning and Data Analytics techniques to analyze and predict prepayment risk, default probability, and loss severity in Mortgage-Backed Securities (MBS) using Freddie Mac's loan performance data.
@@ -143,6 +143,7 @@ Potential areas for further development include:
 
 ## Contributing
 Contributions to this project are welcome. Please feel free to submit pull requests or open issues for bug fixes, feature requests, or improvements.
+
 
 
 
