@@ -77,23 +77,12 @@ Follow these steps to set up and run the application:
     ```bash
     docker run -p 8501:8501 streamlit-mortgage-app
     ```
-    This command will run the Docker container and map the application's port 5000 to your host machine's port 5000.
-
-### Running with Docker Compose (Optional)
-
-If a `docker-compose.yml` file is provided (for potential multi-container setups, e.g., with a separate Prometheus instance), you can use the following command from the root of the repository:
-
-```bash
-docker-compose up -d
-```
-
-This will build and start all the services defined in the docker-compose.yml file in detached mode.
 
 #### Accessing the Application
 Once the Docker container is running, you can access the Flask API at http://localhost:8501
 
 ## API Endpoints
-The application exposes the following API endpoint:
+
 The application exposes the following API endpoint:
 •	/predict (POST): 
 o	Description: Accepts JSON data representing the features of an MBS and returns the predicted probability of default.
@@ -119,7 +108,7 @@ JSON
   "gradient_boosting": 1,
 }
 ```
-The model field indicates which model was used for the prediction (this might be configurable or a default). The probability_of_default field contains the predicted probability.
+The model field indicates which model was used for the prediction (this might be configurable or a default). 
 
 ## Training the Models
 This repository focuses on the deployment of pre-trained models. The process of training these models (data loading, preprocessing, feature engineering, model training, and saving) is typically done in separate notebooks.
@@ -143,6 +132,7 @@ Potential areas for further development include:
 
 ## Contributing
 Contributions to this project are welcome. Please feel free to submit pull requests or open issues for bug fixes, feature requests, or improvements.
+
 
 
 
