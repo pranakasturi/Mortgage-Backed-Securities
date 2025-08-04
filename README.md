@@ -6,7 +6,9 @@ This repository contains a Dockerized Flask application that leverages various m
 This project applies Machine Learning and Data Analytics techniques to analyze and predict prepayment risk, default probability, and loss severity in Mortgage-Backed Securities (MBS) using Freddie Mac's loan performance data.
 
 ## Data Source
+
 •	Freddie Mac Single-Family Loan Performance Data (Last 5 Years)
+
 •	Covers 53.8 million mortgages with credit performance, loss details, and monthly loan status.
 
 ## Repository Structure
@@ -28,12 +30,12 @@ Mortgage-Backed-Securities/
 
 * **Python:** The primary programming language.
 * **Flask:** A micro web framework for building the API.
-* **Scikit-learn:** A comprehensive library for machine learning algorithms (Logistic Regression, Gradient Boosting, LDA).
+* **Scikit-learn:** A comprehensive library for machine learning algorithms (Logistic Regression, Gradient Boosting).
 * **XGBoost:** A gradient boosting library known for its performance and scalability.
 * **Pandas:** A powerful library for data manipulation and analysis.
 * **NumPy:** A fundamental package for numerical computation.
 * **Docker:** A platform for containerizing applications.
-* **Prometheus:** An open-source system monitoring and alerting toolkit.
+* **Streamlit:** A web app for predicting mortgage default risk using multiple machine learning models
 
 ## Project Pipeline
 1.	Data Preprocessing – Cleaning, feature engineering, and encoding.
@@ -141,4 +143,5 @@ Potential areas for further development include:
 
 ## Contributing
 Contributions to this project are welcome. Please feel free to submit pull requests or open issues for bug fixes, feature requests, or improvements.
+
 
